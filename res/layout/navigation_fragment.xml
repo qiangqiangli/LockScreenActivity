@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/navigation_main"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:onClick="mainPageClick"
+        android:text="@string/navigation_main"
+        android:textColor="@color/light_bule"
+        android:textSize="@dimen/navigation_text_size" />
+
+    <TextView
+        android:id="@+id/navigation_sell"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:text="@string/navigation_sell"
+        android:textColor="@color/white"
+        android:textSize="@dimen/navigation_text_size" />
+
+    <TextView
+        android:id="@+id/navigation_preferential"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:text="@string/navigation_preferential"
+        android:textColor="@color/white"
+        android:textSize="@dimen/navigation_text_size" />
+
+    <TextView
+        android:id="@+id/navigation_branches"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:text="@string/navigation_branches"
+        android:textColor="@color/white"
+        android:textSize="@dimen/navigation_text_size" />
+
+    <TextView
+        android:id="@+id/navigation_staff"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:text="@string/navigation_staff"
+        android:textColor="@color/white"
+        android:textSize="@dimen/navigation_text_size" />
+
+    <TextView
+        android:id="@+id/navigation_purchase"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:text="@string/navigation_purchase"
+        android:textColor="@color/white"
+        android:textSize="@dimen/navigation_text_size" />
+
+    <TextView
+        android:id="@+id/navigation_deploy"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:text="@string/navigation_deploy"
+        android:textColor="@color/white"
+        android:textSize="@dimen/navigation_text_size" />
+
+    <TextView
+        android:id="@+id/navigation_setting"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:text="@string/navigation_setting"
+        android:textColor="@color/white"
+        android:textSize="@dimen/navigation_text_size" />
+
+</LinearLayout>

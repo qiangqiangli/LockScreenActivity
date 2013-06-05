@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_page_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/fragment_change_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+string/fragment_change_button_text" />
+
+    <TextView
+        android:id="@+id/fragment_change_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_change_button_text" />
+    
+   	 <ListView
+   	     android:id="@+id/listView1"
+   	     android:layout_width="250dp"
+   	     android:layout_height="400dp"
+   	     android:longClickable="true" />
+
+    <FrameLayout
+        android:id="@+id/testfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </FrameLayout>
+
+</LinearLayout>
